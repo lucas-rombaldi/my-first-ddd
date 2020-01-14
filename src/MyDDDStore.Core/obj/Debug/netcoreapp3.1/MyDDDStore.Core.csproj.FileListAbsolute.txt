@@ -1,0 +1,8 @@
+C:\Users\lucas.rombaldi\source\repos\MyDDDStore\src\MyDDDStore.Core\bin\Debug\netcoreapp3.1\MyDDDStore.Core.deps.json
+C:\Users\lucas.rombaldi\source\repos\MyDDDStore\src\MyDDDStore.Core\bin\Debug\netcoreapp3.1\MyDDDStore.Core.dll
+C:\Users\lucas.rombaldi\source\repos\MyDDDStore\src\MyDDDStore.Core\bin\Debug\netcoreapp3.1\MyDDDStore.Core.pdb
+C:\Users\lucas.rombaldi\source\repos\MyDDDStore\src\MyDDDStore.Core\obj\Debug\netcoreapp3.1\MyDDDStore.Core.csprojAssemblyReference.cache
+C:\Users\lucas.rombaldi\source\repos\MyDDDStore\src\MyDDDStore.Core\obj\Debug\netcoreapp3.1\MyDDDStore.Core.AssemblyInfoInputs.cache
+C:\Users\lucas.rombaldi\source\repos\MyDDDStore\src\MyDDDStore.Core\obj\Debug\netcoreapp3.1\MyDDDStore.Core.AssemblyInfo.cs
+C:\Users\lucas.rombaldi\source\repos\MyDDDStore\src\MyDDDStore.Core\obj\Debug\netcoreapp3.1\MyDDDStore.Core.dll
+C:\Users\lucas.rombaldi\source\repos\MyDDDStore\src\MyDDDStore.Core\obj\Debug\netcoreapp3.1\MyDDDStore.Core.pdb
