@@ -9,3 +9,14 @@ C:\Users\lucas.rombaldi\source\repos\MyDDDStore\src\MyDDDStore.Catalogo.Domain\o
 C:\Users\lucas.rombaldi\source\repos\MyDDDStore\src\MyDDDStore.Catalogo.Domain\obj\Debug\netcoreapp3.1\MyDDDStore.Catalogo.Domain.csproj.CopyComplete
 C:\Users\lucas.rombaldi\source\repos\MyDDDStore\src\MyDDDStore.Catalogo.Domain\obj\Debug\netcoreapp3.1\MyDDDStore.Catalogo.Domain.dll
 C:\Users\lucas.rombaldi\source\repos\MyDDDStore\src\MyDDDStore.Catalogo.Domain\obj\Debug\netcoreapp3.1\MyDDDStore.Catalogo.Domain.pdb
+C:\git-pessoal\my-first-ddd\src\MyDDDStore.Catalogo.Domain\bin\Debug\netcoreapp3.1\MyDDDStore.Core.dll
+C:\git-pessoal\my-first-ddd\src\MyDDDStore.Catalogo.Domain\obj\Debug\netcoreapp3.1\MyDDDStore.Catalogo.Domain.csprojAssemblyReference.cache
+C:\git-pessoal\my-first-ddd\src\MyDDDStore.Catalogo.Domain\obj\Debug\netcoreapp3.1\MyDDDStore.Catalogo.Domain.AssemblyInfoInputs.cache
+C:\git-pessoal\my-first-ddd\src\MyDDDStore.Catalogo.Domain\obj\Debug\netcoreapp3.1\MyDDDStore.Catalogo.Domain.AssemblyInfo.cs
+C:\git-pessoal\my-first-ddd\src\MyDDDStore.Catalogo.Domain\bin\Debug\netcoreapp3.1\MyDDDStore.Catalogo.Domain.deps.json
+C:\git-pessoal\my-first-ddd\src\MyDDDStore.Catalogo.Domain\bin\Debug\netcoreapp3.1\MyDDDStore.Catalogo.Domain.dll
+C:\git-pessoal\my-first-ddd\src\MyDDDStore.Catalogo.Domain\bin\Debug\netcoreapp3.1\MyDDDStore.Catalogo.Domain.pdb
+C:\git-pessoal\my-first-ddd\src\MyDDDStore.Catalogo.Domain\bin\Debug\netcoreapp3.1\MyDDDStore.Core.pdb
+C:\git-pessoal\my-first-ddd\src\MyDDDStore.Catalogo.Domain\obj\Debug\netcoreapp3.1\MyDDDStore.Catalogo.Domain.csproj.CopyComplete
+C:\git-pessoal\my-first-ddd\src\MyDDDStore.Catalogo.Domain\obj\Debug\netcoreapp3.1\MyDDDStore.Catalogo.Domain.dll
+C:\git-pessoal\my-first-ddd\src\MyDDDStore.Catalogo.Domain\obj\Debug\netcoreapp3.1\MyDDDStore.Catalogo.Domain.pdb

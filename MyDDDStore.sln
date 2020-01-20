@@ -19,13 +19,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pagamentos", "Pagamentos", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vendas", "Vendas", "{BFA1E89B-F987-4BA6-8E8C-7120969AD117}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDDDStore.Catalogo.Domain", "src\MyDDDStore.Catalogo.Domain\MyDDDStore.Catalogo.Domain.csproj", "{E3CE5DD5-6194-40E0-8C57-360153DDC566}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDDDStore.Catalogo.Domain", "src\MyDDDStore.Catalogo.Domain\MyDDDStore.Catalogo.Domain.csproj", "{E3CE5DD5-6194-40E0-8C57-360153DDC566}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDDDStore.Core", "src\MyDDDStore.Core\MyDDDStore.Core.csproj", "{4882837D-B8A7-4839-8066-318E91D7E529}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDDDStore.Core", "src\MyDDDStore.Core\MyDDDStore.Core.csproj", "{4882837D-B8A7-4839-8066-318E91D7E529}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7060E61D-9B73-4EEF-AFD1-E1F45B3C1BB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDDDStore.Catalogo.Domain.Tests", "tests\MyDDDStore.Catalogo.Domain.Tests\MyDDDStore.Catalogo.Domain.Tests.csproj", "{D1D414BB-8CDE-4CB0-A125-6D6BA1F0A59C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDDDStore.Catalogo.Domain.Tests", "tests\MyDDDStore.Catalogo.Domain.Tests\MyDDDStore.Catalogo.Domain.Tests.csproj", "{D1D414BB-8CDE-4CB0-A125-6D6BA1F0A59C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDDDStore.Catalogo.Data", "src\MyDDDStore.Catalogo.Data\MyDDDStore.Catalogo.Data.csproj", "{BDF8596E-60DB-402B-859F-D158E9052475}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDDDStore.Catalogo.Application", "src\MyDDDStore.Catalogo.Application\MyDDDStore.Catalogo.Application.csproj", "{E69FE61B-795A-467E-8E98-49846D1A9645}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDDDStore.WebApp.MVC", "src\MyDDDStore.WebApp.MVC\MyDDDStore.WebApp.MVC.csproj", "{F5658985-8030-4047-AC7A-1F7F52470D7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{D1D414BB-8CDE-4CB0-A125-6D6BA1F0A59C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1D414BB-8CDE-4CB0-A125-6D6BA1F0A59C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1D414BB-8CDE-4CB0-A125-6D6BA1F0A59C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDF8596E-60DB-402B-859F-D158E9052475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF8596E-60DB-402B-859F-D158E9052475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF8596E-60DB-402B-859F-D158E9052475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF8596E-60DB-402B-859F-D158E9052475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E69FE61B-795A-467E-8E98-49846D1A9645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E69FE61B-795A-467E-8E98-49846D1A9645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E69FE61B-795A-467E-8E98-49846D1A9645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E69FE61B-795A-467E-8E98-49846D1A9645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5658985-8030-4047-AC7A-1F7F52470D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5658985-8030-4047-AC7A-1F7F52470D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5658985-8030-4047-AC7A-1F7F52470D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5658985-8030-4047-AC7A-1F7F52470D7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +78,9 @@ Global
 		{4882837D-B8A7-4839-8066-318E91D7E529} = {FEAE0A6C-E510-4DBA-88FF-F800632EE53A}
 		{7060E61D-9B73-4EEF-AFD1-E1F45B3C1BB7} = {813E2A68-7338-44B4-8480-890E6F5144DA}
 		{D1D414BB-8CDE-4CB0-A125-6D6BA1F0A59C} = {7060E61D-9B73-4EEF-AFD1-E1F45B3C1BB7}
+		{BDF8596E-60DB-402B-859F-D158E9052475} = {813E2A68-7338-44B4-8480-890E6F5144DA}
+		{E69FE61B-795A-467E-8E98-49846D1A9645} = {813E2A68-7338-44B4-8480-890E6F5144DA}
+		{F5658985-8030-4047-AC7A-1F7F52470D7B} = {402FF657-09EE-4E41-BD46-67EA2F42103F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1E3D39B-5EC2-47E2-8651-E813CF9D41A1}
