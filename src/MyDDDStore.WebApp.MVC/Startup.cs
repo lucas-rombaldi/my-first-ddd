@@ -17,6 +17,8 @@ using MyDDDStore.Catalogo.Application.AutoMapper;
 using MediatR;
 using MyDDDStore.Catalogo.Data;
 using MyDDDStore.WebApp.MVC.Setup;
+using MyDDDStore.Vendas.Data;
+using MyDDDStore.Pagamentos.Data;
 
 namespace MyDDDStore.WebApp.MVC
 {
@@ -37,6 +39,14 @@ namespace MyDDDStore.WebApp.MVC
                     Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddDbContext<CatalogoContext>(options =>
+                options.UseSqlServer(
+                    Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddDbContext<VendasContext>(options =>
+                options.UseSqlServer(
+                    Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddDbContext<PagamentoContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
 

@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MyDDDStore.Catalogo.Domain;
 using MyDDDStore.Core.Data;
+using MyDDDStore.Core.Messages;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
@@ -18,9 +19,11 @@ namespace MyDDDStore.Catalogo.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-/*            foreach (var property in modelBuilder.Model.GetEntityTypes().SelectMany(
-                e => e.GetProperties().Where(p => p.ClrType == typeof(string))))
-                property.GetRelationalTypeMapping()..ColumnType = "varchar(100)";*/
+            /*            foreach (var property in modelBuilder.Model.GetEntityTypes().SelectMany(
+                            e => e.GetProperties().Where(p => p.ClrType == typeof(string))))
+                            property.GetRelationalTypeMapping()..ColumnType = "varchar(100)";*/
+
+            modelBuilder.Ignore<Event>();
 
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(CatalogoContext).Assembly);
         }
